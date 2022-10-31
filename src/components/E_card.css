@@ -1,0 +1,23 @@
+.main
+{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 8rem;
+    flex-direction: column;
+}
+.type
+{
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+.icn
+{
+    margin-top: 1rem;
+}

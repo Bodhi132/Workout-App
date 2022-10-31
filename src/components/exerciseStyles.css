@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+
+.ex_main
+{
+    height: 200vh;
+    width: 93vw;
+    margin: 7%;
+
+}
+div>h2
+{
+    color: yellowgreen;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+/* .ex_items
+{
+    height: 100px;
+    width: 100px;
+    padding: 5rem;
+} */
+.ex_main_items
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}

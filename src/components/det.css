@@ -1,0 +1,24 @@
+.det
+{
+    display: flex;
+    flex-direction: row;
+}
+.det_sub
+{
+    padding: 5rem;
+    margin-left: 3rem;
+}
+.gifImag
+{
+    height: 600px;
+    width: 540px;
+}
+.ex_detail
+{
+    display: flex;
+    padding: 1rem;
+}
+.e_dtail
+{
+    margin-right: 1rem;
+}

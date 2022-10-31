@@ -1,0 +1,15 @@
+.v_head
+{
+    text-align: center;
+    padding: 2rem;
+}
+.sub_vid
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sub_vid img{
+    height: 300px;
+    width: 200px;
+}

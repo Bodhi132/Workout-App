@@ -1,0 +1,71 @@
+/* 
+
+.ex_container
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+.main_ex
+{
+    display: flex;
+    margin: 0 40px;
+}
+.icn-R
+{
+    margin-right: 35px;
+    align-items: center;
+    justify-content: centerd;
+}
+.react-horizontal-scrolling-menu--arrow-left, .react-horizontal-scrolling-menu--arrow-right
+{
+    justify-content: center;
+    align-items: center;
+}
+.react-horizontal-scrolling-menu--scroll-container {
+    display: flex;
+    height: max-content;
+    overflow-y: hidden;
+    position: relative;
+    width: 100%;
+    margin-left: 22px;
+    margin-right: 54px;
+    justify-content: center;
+    align-items: center;
+} */
+
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+.media-scroller
+{
+    display: grid;
+    gap:var(--size-3);
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;
+    margin-top: 2rem;
+    /* margin-left: 1rem; */
+    margin-right: 1rem;
+    padding: 2rem;
+    padding-left: 0;
+    padding-right: 3rem;
+    overflow: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.media-element
+{
+    padding: var(--size-6);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icn
+{
+    display: block;
+}
